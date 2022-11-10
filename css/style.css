@@ -3,10 +3,15 @@
     padding: 0;
     box-sizing: border-box;
 }
-main{
+body{
     width: 100%;
+}
+main{
+    
+    width: 80%;
     margin: 0 auto;
     text-align: center;
+  
 }
 h1{
     font-family: 'Fredoka One', cursive;
@@ -16,4 +21,78 @@ h1{
 p{
     font-family: 'Fredoka', sans-serif;
     margin-top: 50px;
+    text-align: justify;
+    text-align-last: center;
+    
+}
+.container{
+    width: 100%;
+}
+.cards{
+    margin-top: 40px;
+    width: calc(100% / 3 - 15px);
+    height: 75px;
+    background-color: rgb(15, 14, 22);
+    float: left;
+    -webkit-box-shadow: -1px 0px 5px 1px #000000; 
+    box-shadow: -1px 0px 5px 1px #000000;
+}
+.card{
+    height: 100%;
+}
+
+.pic{
+    width: 80px;
+    height: 100%;
+    float: left;
+}
+.name{
+    font-family: 'Fredoka', sans-serif;
+    color: white;
+    width: 70%;
+    text-align: left;
+    font-size: 13px;
+    padding-left:3%;
+    line-height: 20px;
+    margin-top: 10px;
+    float: left;
+}
+h4{
+    text-align: left;
+    font-family: 'Fredoka One', cursive;
+
+}
+.email{
+    color: rgb(33, 182, 246);
+    font-weight: bold;
+}
+.cards.left{
+    margin-right: 22px;
+}
+.cards.right{
+    margin-left: 22px;
+}
+.I-male{
+    background-image: url(../img/male1.png);
+    background-size: cover; 
+}
+.I-female{
+    background-image: url(../img/female1.png);
+    background-size: cover;
+}
+.II-male{
+    background-image: url(../img/male2.png);
+    background-size: cover;
+}
+.II-female{
+    background-image: url(../img/female2.png);
+    background-size: cover;
+}
+.III-male{
+    background-image: url(../img/male3.png);
+    background-size: cover;
+}
+.III-female{
+    background-image: url(../img/female3.png);
+    background-size: cover;
 }
